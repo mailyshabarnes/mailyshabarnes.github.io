@@ -1,4 +1,4 @@
-body {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    body {
     background: rgba(240, 133, 215, 0);
     color: rgb(247, 30, 164);
     padding: 10px;
@@ -45,7 +45,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(205, 203, 199); 🎀
+    background: rgb(205, 203, 199); 
     display: flex;
     margin-top: 20px;
 }
@@ -81,4 +81,30 @@ h2, h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+  }
+
+  /* Portfolio styles */
+.content h1 {
+    color: black;
+  }
+  
+  #portfolio {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio li:hover {
+    background: #eee;
+  }
+  
+  #portfolio a {
+    text-decoration: none;
+    color: #454545;
   }
