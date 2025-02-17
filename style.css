@@ -45,7 +45,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(205, 203, 199); 
+    background: rgb(217, 208, 208); 
     display: flex;
     margin-top: 20px;
 }
@@ -85,7 +85,7 @@ h2, h3 {
 
   /* Portfolio styles */
 .content h1 {
-    color: black;
+    color: rgba(0, 0, 0, 0);
   }
   
   #portfolio {
@@ -101,10 +101,10 @@ h2, h3 {
   }
   
   #portfolio li:hover {
-    background: #eee;
+    background: #343030;
   }
   
   #portfolio a {
     text-decoration: none;
-    color: #454545;
+    color: #e80d86;
   }
